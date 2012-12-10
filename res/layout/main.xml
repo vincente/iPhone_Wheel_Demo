@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center" 
+    android:background="@drawable/main_bg">
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        >
+        <Button
+            android:id="@+id/btn_city" 
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/btn"
+            android:text="城市"
+            android:textSize="22sp"/>
+        <Button 
+            android:id="@+id/btn_pwd"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/btn"
+            android:text="密码"
+            android:textSize="22sp"/>
+        <Button 
+            android:id="@+id/btn_time"
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/btn"
+            android:text="时间"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+</LinearLayout>
